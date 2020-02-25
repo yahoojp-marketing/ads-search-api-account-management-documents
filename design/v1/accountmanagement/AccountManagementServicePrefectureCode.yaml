@@ -1,0 +1,107 @@
+AccountManagementServicePrefectureCode:
+  type: string
+  nullable: true
+  enum:
+  - HOKKAIDO
+  - AOMORI
+  - IWATE
+  - MIYAGI
+  - AKITA
+  - YAMAGATA
+  - FUKUSHIMA
+  - IBARAKI
+  - TOCHIGI
+  - GUNMA
+  - SAITAMA
+  - CHIBA
+  - TOKYO
+  - KANAGAWA
+  - NIIGATA
+  - TOYAMA
+  - ISHIKAWA
+  - FUKUI
+  - YAMANASHI
+  - NAGANO
+  - GIFU
+  - SHIZUOKA
+  - AICHI
+  - MIE
+  - SIGA
+  - KYOTO
+  - OSAKA
+  - HYOGO
+  - NARA
+  - WAKAYAMA
+  - TOTTORI
+  - SHIMANE
+  - OKAYAMA
+  - HIROSHIMA
+  - YAMAGUCHI
+  - TOKUSHIMA
+  - KAGAWA
+  - EHIME
+  - KOCHI
+  - FUKUOKA
+  - SAGA
+  - NAGASAKI
+  - KUMAMOTO
+  - OITA
+  - MIYAZAKI
+  - KAGOSHIMA
+  - OKINAWA
+  - NONE
+  - UNKNOWN
+  title: AccountManagementServicePrefectureCode
+  description: |
+    <div lang="ja">AccountManagementServicePrefectureCodeは、都道府県コードを表します。<br>このフィールドは、ADD時に省略可能となり、SET時に無視されます。<br>※ADD時、client配下では必須となります。</div>
+    <div lang="en">AccountManagementServicePrefectureCode displays the code of prefectures.</div>
+    <hr>
+    <p>* <code>HOKKAIDO</code> - <span lang="ja">北海道</span><span lang="en">HOKKAIDO</span></p>
+    <p>* <code>AOMORI</code> - <span lang="ja">青森県</span><span lang="en">AOMORI</span></p>
+    <p>* <code>IWATE</code> - <span lang="ja">岩手県</span><span lang="en">IWATE</span></p>
+    <p>* <code>MIYAGI</code> - <span lang="ja">宮城県</span><span lang="en">MIYAGI</span></p>
+    <p>* <code>AKITA</code> - <span lang="ja">秋田県</span><span lang="en">AKITA</span></p>
+    <p>* <code>YAMAGATA</code> - <span lang="ja">山形県</span><span lang="en">YAMAGATA</span></p>
+    <p>* <code>FUKUSHIMA</code> - <span lang="ja">福島県</span><span lang="en">FUKUSHIMA</span></p>
+    <p>* <code>IBARAKI</code> - <span lang="ja">茨城県</span><span lang="en">IBARAKI</span></p>
+    <p>* <code>TOCHIGI</code> - <span lang="ja">栃木県</span><span lang="en">TOCHIGI</span></p>
+    <p>* <code>GUNMA</code> - <span lang="ja">群馬県</span><span lang="en">GUNMA</span></p>
+    <p>* <code>SAITAMA</code> - <span lang="ja">埼玉県</span><span lang="en">SAITAMA</span></p>
+    <p>* <code>CHIBA</code> - <span lang="ja">千葉県</span><span lang="en">CHIBA</span></p>
+    <p>* <code>TOKYO</code> - <span lang="ja">東京都</span><span lang="en">TOKYO</span></p>
+    <p>* <code>KANAGAWA</code> - <span lang="ja">神奈川県</span><span lang="en">KANAGAWA</span></p>
+    <p>* <code>NIIGATA</code> - <span lang="ja">新潟県</span><span lang="en">NIIGATA</span></p>
+    <p>* <code>TOYAMA</code> - <span lang="ja">富山県</span><span lang="en">TOYAMA</span></p>
+    <p>* <code>ISHIKAWA</code> - <span lang="ja">石川県</span><span lang="en">ISHIKAWA</span></p>
+    <p>* <code>FUKUI</code> - <span lang="ja">福井県</span><span lang="en">FUKUI</span></p>
+    <p>* <code>YAMANASHI</code> - <span lang="ja">山梨県</span><span lang="en">YAMANASHI</span></p>
+    <p>* <code>NAGANO</code> - <span lang="ja">長野県</span><span lang="en">NAGANO</span></p>
+    <p>* <code>GIFU</code> - <span lang="ja">岐阜県</span><span lang="en">GIFU</span></p>
+    <p>* <code>SHIZUOKA</code> - <span lang="ja">静岡県</span><span lang="en">SHIZUOKA</span></p>
+    <p>* <code>AICHI</code> - <span lang="ja">愛知県</span><span lang="en">AICHI</span></p>
+    <p>* <code>MIE</code> - <span lang="ja">三重県</span><span lang="en">MIE</span></p>
+    <p>* <code>SIGA</code> - <span lang="ja">滋賀県</span><span lang="en">SIGA</span></p>
+    <p>* <code>KYOTO</code> - <span lang="ja">京都府</span><span lang="en">KYOTO</span></p>
+    <p>* <code>OSAKA</code> - <span lang="ja">大阪府</span><span lang="en">OSAKA</span></p>
+    <p>* <code>HYOGO</code> - <span lang="ja">兵庫県</span><span lang="en">HYOGO</span></p>
+    <p>* <code>NARA</code> - <span lang="ja">奈良県</span><span lang="en">NARA</span></p>
+    <p>* <code>WAKAYAMA</code> - <span lang="ja">和歌山県</span><span lang="en">WAKAYAMA</span></p>
+    <p>* <code>TOTTORI</code> - <span lang="ja">鳥取県</span><span lang="en">TOTTORI</span></p>
+    <p>* <code>SHIMANE</code> - <span lang="ja">島根県</span><span lang="en">SHIMANE</span></p>
+    <p>* <code>OKAYAMA</code> - <span lang="ja">岡山県</span><span lang="en">OKAYAMA</span></p>
+    <p>* <code>HIROSHIMA</code> - <span lang="ja">広島県</span><span lang="en">HIROSHIMA</span></p>
+    <p>* <code>YAMAGUCHI</code> - <span lang="ja">山口県</span><span lang="en">YAMAGUCHI</span></p>
+    <p>* <code>TOKUSHIMA</code> - <span lang="ja">徳島県</span><span lang="en">TOKUSHIMA</span></p>
+    <p>* <code>KAGAWA</code> - <span lang="ja">香川県</span><span lang="en">KAGAWA</span></p>
+    <p>* <code>EHIME</code> - <span lang="ja">愛媛県</span><span lang="en">EHIME</span></p>
+    <p>* <code>KOCHI</code> - <span lang="ja">高知県</span><span lang="en">KOCHI</span></p>
+    <p>* <code>FUKUOKA</code> - <span lang="ja">福岡県</span><span lang="en">FUKUOKA</span></p>
+    <p>* <code>SAGA</code> - <span lang="ja">佐賀県</span><span lang="en">SAGA</span></p>
+    <p>* <code>NAGASAKI</code> - <span lang="ja">長崎県</span><span lang="en">NAGASAKI</span></p>
+    <p>* <code>KUMAMOTO</code> - <span lang="ja">熊本県</span><span lang="en">KUMAMOTO</span></p>
+    <p>* <code>OITA</code> - <span lang="ja">大分県</span><span lang="en">OITA</span></p>
+    <p>* <code>MIYAZAKI</code> - <span lang="ja">宮崎県</span><span lang="en">MIYAZAKI</span></p>
+    <p>* <code>KAGOSHIMA</code> - <span lang="ja">鹿児島県</span><span lang="en">KAGOSHIMA</span></p>
+    <p>* <code>OKINAWA</code> - <span lang="ja">沖縄県</span><span lang="en">OKINAWA</span></p>
+    <p>* <code>NONE</code> - <span lang="ja">未設定</span><span lang="en">NONE</span></p>
+    <p>* <code>UNKNOWN</code> - <span lang="ja">未知の値です。</span><span lang="en">Unknown Value</span></p>

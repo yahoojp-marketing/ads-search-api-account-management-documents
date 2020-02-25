@@ -1,0 +1,155 @@
+AccountManagementServiceClient:
+  type: object
+  nullable: true
+  properties:
+    building:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">ビル名です。<br>このフィールドは、ADD時に省略可能となり、SET時に無視されます。</div>
+        <div lang="en">Building name.</div>
+    city:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">市区町村名です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">City name.</div>
+    clientPersonName:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">広告主の担当者氏名です。<br>このフィールドは、ADD時に省略可能となり、SET時に無視されます。</div>
+        <div lang="en">Client person name.</div>
+    companyName:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">広告主名です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">Company name.</div>
+    companyNameKana:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">広告主名カナです。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">Kana characters of company name.</div>
+    enterpriseType:
+      $ref: 'AccountManagementServiceEnterpriseType.yaml#/AccountManagementServiceEnterpriseType'
+    enterpriseTypePosition:
+      $ref: 'AccountManagementServiceEnterpriseTypePosition.yaml#/AccountManagementServiceEnterpriseTypePosition'
+    phoneNumber:
+      type: string
+      nullable: true
+      pattern: '^\d{1,5}-\d{1,5}-\d{1,5}$'
+      description: |
+        <div lang="ja">電話番号です。<br>※xxxxx-xxxxx-xxxxx形式です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">Phone number.<br>xxxxx-xxxxx-xxxxx</div>
+    prefectureCode:
+      $ref: 'AccountManagementServicePrefectureCode.yaml#/AccountManagementServicePrefectureCode'
+    street1:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">町・字名です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">street1.</div>
+    street2:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">丁目・番地・号です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">street2.</div>
+    url:
+      type: string
+      nullable: true
+      description: |
+        <div lang="ja">広告掲載を希望するサイトのURLです。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">URL.</div>
+    urlType:
+      $ref: 'AccountManagementServiceUrlType.yaml#/AccountManagementServiceUrlType'
+    zip:
+      type: string
+      nullable: true
+      pattern: '^\d{3}-\d{4}$'
+      description: |
+        <div lang="ja">郵便番号です。<br>※xxx-xxxx形式です。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+        <div lang="en">Zip code.<br>xxx-xxxx</div>
+  title: AccountManagementServiceClient
+  description: |
+    <div lang="ja">AccountManagementServiceClientオブジェクトは、広告主情報を表します。<br>このフィールドは、ADD時に必須となり、SET時に無視されます。</div>
+    <div lang="en">AccountManagementServiceClient object serves the client information.</div><hr><details><summary>Requirement</summary>
+    <table border='1'>
+      <tr>
+        <th>PROPERTY</th>
+        <th>ADD</th>
+        <th>SET</th>
+      </tr>
+      <tr>
+        <td>building</td>
+        <td>Optional</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>city</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>clientPersonName</td>
+        <td>Optional</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>companyName</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>companyNameKana</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>enterpriseType</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>enterpriseTypePosition</td>
+        <td>Optional</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>phoneNumber</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>prefectureCode</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>street1</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>street2</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>url</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>urlType</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>zip</td>
+        <td>Requirement</td>
+        <td>Ignore</td>
+      </tr>
+    </table></details>

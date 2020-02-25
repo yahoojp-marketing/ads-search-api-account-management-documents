@@ -1,1 +1,1 @@
-# ads-search-api-account-management-documents-
+# ads-search-api-account-management-documents

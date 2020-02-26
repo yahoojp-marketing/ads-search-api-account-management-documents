@@ -8,10 +8,9 @@ AccountManagementServiceEnterpriseTypePosition:
   title: AccountManagementServiceEnterpriseTypePosition
   description: |
     <div lang="ja">AccountManagementServiceEnterpriseTypePositionは、企業形態の位置を表します。
-    <br>このフィールドは、ADD時は必須となり、SET時は無視されます。<br>※ADD時、enterpriseTypeがKOJIN（個人事業主）またはOTHER（その他法人）の場合は設定できません。</div>
-    <div lang="en">AccountManagementServiceEnterpriseTypePosition displays the position of entterprise type.
-    <br>If EnterpriseType is either KOJIN or OTHER, this field can not be set. Otherwise it is required in ADD Operation and ignored in SET Operation</div>
+    <br>このフィールドは、ADD時に省略可能となり、SET時は無視されます。<br>※ADD時、enterpriseTypeがKOJIN（個人事業主）またはOTHER（その他法人）の場合は設定できません。</div>
+    <div lang="en">AccountManagementServiceEnterpriseTypePosition describes the position of enterprise type.<br>This field is optional in ADD operation, and will be ignored in SET operation.<br>* Cannot be set when enterpriseType is KOJIN or OTHER in ADD operation.</div>
     <hr>
-    <p>* <code>FRONT</code> - <span lang="ja">会社名の前</span><span lang="en">FRONT</span></p>
-    <p>* <code>BACK</code> - <span lang="ja">会社名の後ろ</span><span lang="en">BACK</span></p>
-    <p>* <code>UNKNOWN</code> - <span lang="ja">未知の値です。</span><span lang="en">Unknown Value</span></p>
+    <p>* <code>FRONT</code> - <span lang="ja">会社名の前です。</span><span lang="en">Enterprise type is placed before the company name.</span></p>
+    <p>* <code>BACK</code> - <span lang="ja">会社名の後ろです。</span><span lang="en">Enterprise type is placed after the company name.</span></p>
+    <p>* <code>UNKNOWN</code> - <span lang="ja">未知の値です。</span><span lang="en">Unknown Value.</span></p>

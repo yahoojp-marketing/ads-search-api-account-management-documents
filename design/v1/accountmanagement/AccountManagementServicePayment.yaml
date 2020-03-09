@@ -9,21 +9,4 @@ AccountManagementServicePayment:
   title: AccountManagementServicePayment
   description: |
     <div lang="ja">AccountManagementServicePaymentオブジェクトは、支払情報を保持します。<br>このフィールドは、ADD時は必須となり、SET時は省略可能となります。</div>
-    <div lang="en">AccountManagementServicePayment object retains the payment information.</div><hr><details><summary>Requirement</summary>
-    <table border='1'>
-      <tr>
-        <th>PROPERTY</th>
-        <th>ADD</th>
-        <th>SET</th>
-      </tr>
-      <tr>
-        <td>invoice</td>
-        <td>Requirement</td>
-        <td>Optional</td>
-      </tr>
-      <tr>
-        <td>paymentType</td>
-        <td>Ignore<br><div lang="ja">このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div><div lang="en">∗ Although this field is returned in the response, it is ignored on input.</div></td>
-        <td>Ignore<br><div lang="ja">このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div><div lang="en">∗ Although this field is returned in the response, it is ignored on input.</div></td>
-      </tr>
-    </table></details>
+    <div lang="en">AccountManagementServicePayment object contains the payment information.<br>This field is required in ADD operation, and will be optional in SET operation.</div>

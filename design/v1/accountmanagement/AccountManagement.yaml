@@ -31,6 +31,8 @@ AccountManagement:
       $ref: 'AccountManagementServiceAutoTaggingEnabled.yaml#/AccountManagementServiceAutoTaggingEnabled'
     client:
       $ref: 'AccountManagementServiceClient.yaml#/AccountManagementServiceClient'
+    clientType:
+      $ref: 'AccountManagementServiceClientType.yaml#/AccountManagementServiceClientType'
     contactBizId:
       type: string
       nullable: true

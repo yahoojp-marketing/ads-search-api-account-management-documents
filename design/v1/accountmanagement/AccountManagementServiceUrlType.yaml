@@ -10,10 +10,8 @@ AccountManagementServiceUrlType:
   - UNKNOWN
   title: AccountManagementServiceUrlType
   description: |
-    <div lang="ja">AccountManagementServiceUrlTypeは、申し込みURL種別を表します。<br>
-    このフィールドは、ADD時は必須となり、SET時は無視されます。</div>
-    <div lang="en">AccountManagementServiceUrlType describes the type of application url.<br>
-    This field is required in ADD operation, and will be ignored in SET operation.</div>
+    <div lang="ja">AccountManagementServiceUrlTypeは、申し込みURL種別を表します。<br>このフィールドは、ADD時は必須となり、SET時は無視されます。</div>
+    <div lang="en">AccountManagementServiceUrlType describes the type of application url.<br>This field is required in ADD operation, and will be ignored in SET operation.</div>
     <hr>
     <p>* <code>PC</code> - <span lang="ja">PCです。</span><span lang="en">PC.</span></p>
     <p>* <code>DOCOMO</code> - <span lang="ja">ドコモです。</span><span lang="en">Docomo.</span></p>

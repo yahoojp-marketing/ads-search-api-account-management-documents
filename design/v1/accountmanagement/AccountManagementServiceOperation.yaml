@@ -9,10 +9,8 @@ AccountManagementServiceOperation:
       nullable: true
       format: int64
       description: |
-        <div lang="ja">アカウントIDです。<br>
-        このフィールドは、SET時に必須となり、ADD時に無視されます。</div>
-        <div lang="en">Account ID.<br>
-        This field is required in SET operation and ignored in ADD operation.</div>
+        <div lang="ja">アカウントIDです。<br>このフィールドは、SET時に必須となり、ADD時に無視されます。</div>
+        <div lang="en">Account ID.<br>This field is required in SET operation and ignored in ADD operation.</div>
     operand:
       type: array
       nullable: false

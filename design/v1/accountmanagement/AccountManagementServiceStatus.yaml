@@ -11,8 +11,10 @@ AccountManagementServiceStatus:
   - UNKNOWN
   title: AccountManagementServiceStatus
   description: |
-    <div lang="ja">AccountManagementServiceStatusオブジェクトは、アカウントの契約状況を表します。<br>このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div>
-    <div lang="en">AccountManagementServiceStatus object describes contract status of account.<br>Although this field will be returned in the response, it will be ignored on input.</div>
+    <div lang="ja">AccountManagementServiceStatusオブジェクトは、アカウントの契約状況を表します。<br>
+    このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div>
+    <div lang="en">AccountManagementServiceStatus object describes contract status of account.<br>
+    Although this field will be returned in the response, it will be ignored on input.</div>
     <hr>
     <p>* <code>INPROGRESS</code> - <span lang="ja">登録待ちです。</span><span lang="en">Under registration process.</span></p>
     <p>* <code>WAIT_DECIDE</code> - <span lang="ja">確定待ちです。</span><span lang="en">Waiting confirmation.</span></p>

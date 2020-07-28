@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>API Reference - Yahoo! Ads</title>
+    <title>API Reference - Yahoo! JAPAN Ads</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
@@ -16,7 +16,7 @@
     <div class="masthead">
       <p class="masthead__title">
         <a href="https://marketing.yahoo.co.jp/" lang="ja" class="masthead__trigger" >Yahoo!広告</a>
-        <a href="https://global-marketing.yahoo.co.jp/" lang="en" class="masthead__trigger_en" >Yahoo! Ads</a>
+        <a href="https://global-marketing.yahoo.co.jp/" lang="en" class="masthead__trigger_en" >Yahoo! JAPAN Ads</a>
       </p>
         <ul class="masthead__list">
           <li class="masthead__item masthead__item--login">
@@ -44,9 +44,13 @@
         <div class="nav__inner">
             <ul class="navPrimary">
               <li class="navPrimary__item is-current">
-                <div lang="ja"><a class="navPrimary__trigger" href="?lang=ja&v=1">検索広告APIリファレンス v1</a></div>
-                <div lang="en"><a class="navPrimary__trigger" href="?lang=en&v=1">Search Ads API Reference v1</a></div>
+                <div lang="ja"><a class="navPrimary__trigger" href="?lang=ja&v=2">検索広告APIリファレンス v2</a></div>
+                <div lang="en"><a class="navPrimary__trigger" href="?lang=en&v=2">Search Ads API Reference v2</a></div>
                 <ul class="navSecondary">
+                   <li class="navSecondary__item">
+                     <div lang="ja"><a class="navSecondary__trigger" href="?lang=ja&v=1">検索広告APIリファレンス v1</a></div>
+                     <div lang="en"><a class="navSecondary__trigger" href="?lang=en&v=1">Search Ads API Reference v1</a></div>
+                   </li>
                    <li class="navSecondary__item">
                      <div lang="ja"><a class="navSecondary__trigger" href="?lang=ja&v=0">検索広告APIリファレンス v0</a></div>
                      <div lang="en"><a class="navSecondary__trigger" href="?lang=en&v=0">Search Ads API Reference v0</a></div>
@@ -54,12 +58,16 @@
                 </ul><!-- /.navSecondary -->
               </li>
               <li class="navPrimary__item">
-                <div lang="ja"><a class="navPrimary__trigger" href="../ads-display-api-documents/?lang=ja&v=1">ディスプレイ広告APIリファレンス v1</a></div>
-                <div lang="en"><a class="navPrimary__trigger" href="../ads-display-api-documents/?lang=en&v=1">Display Ads API Reference v1</a></div>
+                <div lang="ja"><a class="navPrimary__trigger" href="../ads-display-api-account-management-documents/?lang=ja&v=2">ディスプレイ広告APIリファレンス v2</a></div>
+                <div lang="en"><a class="navPrimary__trigger" href="../ads-display-api-account-management-documents/?lang=en&v=2">Display Ads API Reference v2</a></div>
                 <ul class="navSecondary">
                   <li class="navSecondary__item">
-                    <div lang="ja"><a class="navSecondary__trigger" href="../ads-display-api-documents/?lang=ja&v=0">ディスプレイ広告APIリファレンス v0</a></div>
-                    <div lang="en"><a class="navSecondary__trigger" href="../ads-display-api-documents/?lang=en&v=0">Display Ads API Reference v0</a></div>
+                    <div lang="ja"><a class="navSecondary__trigger" href="../ads-display-api-account-management-documents/?lang=ja&v=1">ディスプレイ広告APIリファレンス v1</a></div>
+                    <div lang="en"><a class="navSecondary__trigger" href="../ads-display-api-account-management-documents/?lang=en&v=1">Display Ads API Reference v1</a></div>
+                  </li>
+                  <li class="navSecondary__item">
+                    <div lang="ja"><a class="navSecondary__trigger" href="../ads-display-api-account-management-documents/?lang=ja&v=0">ディスプレイ広告APIリファレンス v0</a></div>
+                    <div lang="en"><a class="navSecondary__trigger" href="../ads-display-api-account-management-documents/?lang=en&v=0">Display Ads API Reference v0</a></div>
                   </li>
                 </ul><!-- /.navSecondary -->
               </li>
@@ -102,12 +110,12 @@
     <script src="scripts/swagger-ui-standalone-preset.js"> </script>
     <script>
     var lang
-    var version = 1
+    var version = 2
 
     window.addEventListener('DOMContentLoaded', function () {
       if(location.search.indexOf('lang=en') != -1){
         lang = "en"
-        document.title = 'API Reference - Yahoo! Ads';
+        document.title = 'API Reference - Yahoo! JAPAN Ads';
         $('#langType').html('* [lang="ja"]{display:none;}')
       }else{
         lang = "ja"
@@ -208,7 +216,7 @@
          var observer_menu = new MutationObserver(function () {
            observer_swagger.disconnect()
            if (lang == "en") {
-             $('.title').text("Yahoo! Ads Search Ads API Reference v" + version)
+             $('.title').text("Yahoo! JAPAN Ads Search Ads API Reference v" + version)
            } else {
              $('.title').text("Yahoo!広告 検索広告 API リファレンス v" + version)
            }

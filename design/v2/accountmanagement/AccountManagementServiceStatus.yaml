@@ -15,7 +15,6 @@ AccountManagementServiceStatus:
     このフィールドは、レスポンスの際に返却されますが、リクエストの際には無視されます。</div>
     <div lang="en">AccountManagementServiceStatus object describes contract status of account.<br>
     Although this field will be returned in the response, it will be ignored on input.</div>
-    <hr>
     <dl class=term>
       <dt class="term__item">INPROGRESS</dt>
       <dd class="term__desc"><span lang="ja">登録待ちです。</span><span lang="en">Under registration process.</span></dd>

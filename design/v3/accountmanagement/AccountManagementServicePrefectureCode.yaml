@@ -59,7 +59,6 @@ AccountManagementServicePrefectureCode:
     <div lang="en">AccountManagementServicePrefectureCode describes the code of prefectures.<br>
     This field is optional in ADD operation, and will be ignored in SET operation.<br>
     * Under 'client', this field will be required in ADD operation.</div>
-    <hr>
     <dl class=term>
       <dt class="term__item">HOKKAIDO</dt>
       <dd class="term__desc"><span lang="ja">北海道</span><span lang="en">HOKKAIDO</span></dd>

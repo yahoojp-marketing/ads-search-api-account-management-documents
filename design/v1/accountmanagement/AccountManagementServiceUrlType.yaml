@@ -14,7 +14,6 @@ AccountManagementServiceUrlType:
     このフィールドは、ADD時は必須となり、SET時は無視されます。</div>
     <div lang="en">AccountManagementServiceUrlType describes the type of application url.<br>
     This field is required in ADD operation, and will be ignored in SET operation.</div>
-    <hr>
     <dl class=term>
       <dt class="term__item">PC</dt>
       <dd class="term__desc"><span lang="ja">PCです。</span><span lang="en">PC.</span></dd>

@@ -15,7 +15,6 @@ AccountManagementServiceEnterpriseTypePosition:
     This field is optional in ADD operation, and will be ignored in SET operation.<br>
     * Cannot be set when enterpriseType is KOJIN or OTHER in ADD operation.<br>
     * When clientType is "SELF", this field will be ignored in ADD and SET operations.</div>
-    <hr>
     <dl class=term>
       <dt class="term__item">FRONT</dt>
       <dd class="term__desc"><span lang="ja">会社名の前です。</span><span lang="en">Enterprise type is placed before the company name.</span></dd>

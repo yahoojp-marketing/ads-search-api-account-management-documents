@@ -9,7 +9,6 @@ AccountManagementServiceAuthType:
   description: |
     <div lang="ja">権限タイプです。</div>
     <div lang="en">Access roles.</div>
-    <hr>
     <dl class=term>
       <dt class="term__item">REFERABLE</dt>
       <dd class="term__desc"><span lang="ja">参照権限です。</span><span lang="en">Read-only</span></dd>

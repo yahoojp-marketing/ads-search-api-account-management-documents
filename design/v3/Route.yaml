@@ -30,8 +30,8 @@ tags:
   - name: AccountManagementService
     description: |
       <label class="account" ></label>
-      <div lang="ja">AccountManagementServiceでは、アカウントに関する情報の取得および、追加、更新を行います。</div>
-      <div lang="en">AccountManagementService provides functions for creating and managing accounts.</div>
+      <div lang="ja">AccountManagementServiceでは、アカウントに関する情報の取得および、追加、更新を行います。<br/>AccountManagementServiceは、一部の利用者向けの限定機能となります。</div></div>
+      <div lang="en">AccountManagementService provides functions for creating and managing accounts.<br/>AccountManagementService is a limited function for some users.</div>
 paths:
   /AccountManagementService/get:
     post:
